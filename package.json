@@ -8,6 +8,10 @@
     "start": "./node_modules/.bin/pm2 start --no-daemon index.js"
   },
   "author": "Guillaume Poittevin <gpo@atolcd.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atolcd/docker-puppeteer-rest"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
