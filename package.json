@@ -1,0 +1,17 @@
+{
+  "name": "docker-puppeteer-rest",
+  "version": "1.0.0",
+  "description": "Simple application that listen for URL and produce PDF of pointed HTML Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/pm2 start --no-daemon index.js"
+  },
+  "author": "Guillaume Poittevin <gpo@atolcd.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pm2": "^2.10.1",
+    "puppeteer": "^1.1.1"
+  }
+}
